@@ -9,14 +9,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="while" value="while ($CNOD$)&#10;{&#10;    $CODE$&#10;}" description="while loop" toReformat="false" toShortenFQNames="true">
+  <template name="while" value="while ($CNOD$) {&#10;    $CODE$&#10;}" description="while loop" toReformat="false" toShortenFQNames="true">
     <variable name="CNOD" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="if" value="if ($COND$)&#10;{&#10;    $CODE$&#10;}" description="java - if condition" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if ($COND$) {&#10;    $CODE$&#10;}" description="java - if condition" toReformat="false" toShortenFQNames="true">
     <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
