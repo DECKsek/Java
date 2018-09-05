@@ -23,4 +23,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="foreach" value="for ($ITER$ : $COLLECTION$) {&#10;    $CODE$&#10;}" description="Enchanced For - Java" toReformat="false" toShortenFQNames="true">
+    <variable name="ITER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLLECTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
