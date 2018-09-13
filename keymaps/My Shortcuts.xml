@@ -1,8 +1,4 @@
 <keymap version="1" name="My Shortcuts" parent="Default for GNOME">
-  <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="ctrl page_up" />
-  </action>
   <action id="Diff.PrevChange">
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
