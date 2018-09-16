@@ -1,4 +1,8 @@
 <keymap version="1" name="My Shortcuts" parent="Default for GNOME">
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="shift ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="Diff.PrevChange">
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
@@ -8,6 +12,7 @@
   <action id="EditorMoveToPageTop" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
+  <action id="EditorSelectWord" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveLineDown">
@@ -18,10 +23,10 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="ctrl page_up" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
-    <keyboard-shortcut first-keystroke="ctrl page_down" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
 </keymap>
