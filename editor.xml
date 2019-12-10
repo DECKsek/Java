@@ -5,4 +5,7 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="PREVIEW" />
   </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseOneLineMethods" value="false" />
+  </component>
 </application>
